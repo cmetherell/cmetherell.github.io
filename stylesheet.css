@@ -6,7 +6,7 @@ header {
 
 .nav-link {
   color: #fff;
-  font-family: 'poiret one', sans-serif;
+  font-family: 'poiret one', sans-serif !important;
   font-size: 30px;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-family: helvetica, sans-serif;
+  font-family: helvetica, sans-serif !important;
   color: #000;
   font-size: 20px;
   text-transform: lowercase;
@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-family: helvetica, sans-serif;
+  font-family: helvetica, sans-serif !important;
   font-size: 1.5em;
   font-weight: bold;
 }
