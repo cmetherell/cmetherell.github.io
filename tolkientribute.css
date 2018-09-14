@@ -1,0 +1,103 @@
+body{
+  background: #999;
+}
+
+.container {
+  width: 80%;
+  background: #fff;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+h1 {
+  color: #000;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: 'Satisfy', cursive;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #999;
+}
+
+ul {
+  list-style: none;
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.topper {
+  padding: 30px;
+}
+
+.subtitle {
+  padding-bottom: 20px;
+}
+
+.accentrow {
+  background: #ccc;
+  border-top: 3px #999 solid;
+  border-bottom: 3px #999 solid;
+}
+
+.fa-3x {
+  margin-bottom: 10px;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+.tolkien {
+  padding-bottom: 20px;
+}
+
+.wiki {
+  padding-top: 30px;
+}
+
+.sig {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .container,
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .img-thumbnail {
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+}
