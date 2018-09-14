@@ -1,0 +1,122 @@
+
+
+header {
+  background: black;
+  background-image: url(https://static.tumblr.com/30bb7427e0f8151c033affc883d1aa02/bcdf1mz/Zmxn6j3tu/tumblr_static_clouds_n_shit.png);
+  padding: 30px;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'poiret one', sans-serif;
+  font-size: 30px;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 4em;
+  color: #fff;
+}
+
+h2 {
+  font-family: helvetica, sans-serif;
+  color: #000;
+  font-size: 20px;
+  text-transform: lowercase;
+  margin: -1em 0 0 0;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#to-top {
+  color: #999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#to-top:hover {
+  color: #000;
+}
+
+.myimg {
+  max-height: 200px;
+  float: right;
+}
+
+#about {
+  padding: 30px;
+}
+
+#portfolio {
+  padding: 30px;
+}
+
+#contact {
+  padding: 30px;
+}
+
+footer {
+  padding: 30px;
+}
+
+.dot {
+  padding-left: 30px;
+}
+
+.dotlink {
+  color: #999;
+}
+
+.dotlink:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 15px;
+  }
+  
+  h3 {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+  }
+  
+  #to-top {
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .myimg {
+    float: none;
+  }
+}
