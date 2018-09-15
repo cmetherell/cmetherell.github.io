@@ -4,14 +4,14 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size
+  font-size: 42px;
   text-align: center;
   padding: 1%;
+  margin-bottom: -10px;
 }
 
 .thebox {
   width: 75%;
-  margin: 30px;
   background: #999;
   text-align: center;
   position: absolute;
@@ -24,7 +24,8 @@ h1 {
 
 .thequotes {
   padding: 20px;
-  font-family: arial;
+  font-family: "caveat";
+  font-size: 30px;
 }
 
 button {
@@ -35,6 +36,11 @@ button {
   font-size: 20px;
   border: 0px;
   border-radius:5px;
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 button:hover {
