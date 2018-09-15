@@ -3,13 +3,14 @@
     <title>Chelsea's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poiret+One|Satisfy" rel="stylesheet">
-    <link type="text/css" href="stylesheet.css" rel="stylesheet">
+    <link type="text/css" href="css/stylesheet.css" rel="stylesheet">
     <link type="text/css" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poiret+One|Satisfy" rel="stylesheet">
     <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript" src="javascript.js"></script>
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css" type="text/css">
+    <script type="text/javascript" src="js/javascript.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</script>
   </head>
   <body>
     <div class="container-fluid p-0">
@@ -38,24 +39,26 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7" id="itMe">
               <h3>Who I Am</h3>
-              <img src="me.png" class="img-right rounded-circle img-fluid img-thumbnail myimg">
               <p>
                 My name is Chelsea and I am a web designer and perpetual learner based in metro Atlanta.
               </p>
+              <img src="images/me.png" class="img-right rounded-circle img-fluid img-thumbnail myimg">
               <p>
                 I love design, cats, and coffee.
               </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
               <h3>What I Do</h3>
               <p>
                 I make mobile-friendly responsive websites.
               </p>
               <h3>How I Do It</h3>
               <p>
-                I use HTML5, CSS3, Twitter Bootstrap, and jQuery to create the necessary parts to make an effective website for persons or businesses.
+                I use HTML5, CSS3, Twitter Bootstrap, and jQuery to create the necessary parts to make an effective website for personal or business purposes.
+                <br><br>
+                <i class="fab fa-html5 fa-3x"></i> <i class="fab fa-css3-alt fa-3x"></i> <i class="fab fa-js-square fa-3x"></i> <i class="fab fa-apple fa-3x"></i> <i class="fab fa-windows fa-3x"></i>
               </p>
             </div>
           </div>
@@ -88,30 +91,45 @@
         <section id="contact">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2>contact</h2>
+              <h2>nice to meet you</h2>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <h3>Contact me!</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facilis nobis nesciunt dolorem magni. Molestias, sunt. Cumque accusamus odit tempore nemo, perspiciatis enim? Repellendus, consectetur pariatur? Quaerat at ipsum repellendus.</p>
-              <p>Fill out this form and send away!</p>
+              <h3>so, when can we start?</h3>
+              <p>I have a flexible schedule for chatting either through the phone through a text or call, over e-mail, or even something as personal as meeting for coffee to figure out your business or personal website needs.</p>
             </div>
-            <div class="col-md-6">
-              <h3>Fill this out...</h3>
-              <input type="name" class="form-control" placeholder="Your name">
-              <input type="email" class="form-control" placeholder="Your email">
-              <textarea class="form-control" placeholder="Ask me your questions... (note: form is not functional)"></textarea>
-              <button class="btn btn-block btn-default">Send!</button>
+            <div class="col-md-6 text-center">
+              <h3>let's get in touch</h3>
+              <p>Click any of the icons below to call, text, or email, or go ahead and book an appointment with the button!</p>
+              <a href="tel:6785578408" class="contactButtons">
+                <i class="fa fa-phone fa-5x contactButtons"></i>
+              </a>
+              <a href="sms://6785578408" class="contactButtons">
+                <i class="fa fa-comment fa-5x contactButtons"></i>
+              </a>
+              <a href="mailto:cvmetherell@gmail.com" class="contactButtons">
+                <i class="fa fa-at fa-5x contactButtons"></i>
+              </a>
+              <br><br>
+              <a href="https://www.timify.com/en-us/profile/chelsea-metherell-web-design/" target="_blank">
+                <button class="btn btn-block btn-default booking">Book a meetup!</button>
+              </a>
             </div>
           </div>
         </section>
         <footer class="text-center">
           <div class="row">
             <div class="col-md-12">
-              <a href="https://www.linkedin.com/in/chelsea-metherell-059a7a143/" target="_blank" class="dotlink"><i class="fa fa-linkedin fa-2x dot"></i></a>
-              <a href="https://github.com/cmetherell" target="_blank" class="dotlink"><i class="fa fa-github fa-2x dot"></i></a>
-              <a href="https://www.freecodecamp.org/cmetherell" target="_blank" class="dotlink"><i class="fa fa-free-code-camp fa-2x dot"></i></a>
+              <a href="https://www.linkedin.com/in/chelsea-metherell-059a7a143/" target="_blank" class="dotlink">
+                <i class="fab fa-linkedin fa-2x dot"></i>
+              </a>
+              <a href="https://github.com/cmetherell" target="_blank" class="dotlink">
+                <i class="fab fa-github-alt fa-2x dot"></i>
+              </a>
+              <a href="https://www.freecodecamp.org/cmetherell" target="_blank" class="dotlink">
+                <i class="fab fa-free-code-camp fa-2x dot"></i>
+              </a>
             </div>
           </div>
         </footer>
