@@ -99,6 +99,11 @@ footer {
   color: #000;
 } 
 
+.contactButtons {
+  display: flex;
+  
+}
+
 
 @media only screen and (max-width: 768px) {
   
