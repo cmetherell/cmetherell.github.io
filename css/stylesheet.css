@@ -141,6 +141,7 @@ footer {
   
   .myimg {
     float: none;
+    max-height: 100px;
   }
 
   #itMe {
