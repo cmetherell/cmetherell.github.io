@@ -66,6 +66,7 @@ h3 {
 .myimg {
   max-height: 250px;
   float: right;
+  display: inline;
 }
 
 #itMe {
